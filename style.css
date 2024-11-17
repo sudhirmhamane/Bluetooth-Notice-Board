@@ -1,0 +1,443 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.styled-hr {
+    border: none;
+    height: 2px;
+    background-color: #1e90ff;
+    margin: 20px 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #007BFF;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
+}
+
+nav h2 {
+    margin-left : 40px;
+    color: #f4f4f4;
+    font-size: 23px;
+    text-align: center;
+}
+
+/* search box */
+
+
+/* General Section Styling */
+#home {
+    margin-top: 120px;
+    padding: 40px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+    background-color: #fff;
+}
+
+/* Title Styling */
+#home h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Input Section Styling */
+.input-section {
+    margin-bottom: 30px;
+}
+
+/* Textarea Styling */
+#messageInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#sendMessageBtn {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sendMessageBtn:hover {
+    background-color: #45a049;
+}
+
+.status-section {
+    margin-top: 20px;
+}
+
+
+#status {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+#connectBtn {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#connectBtn:hover {
+    background-color: #0056b3;
+}
+
+/* search box done */
+
+
+/* Component Styling */
+.allComponent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-details h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 450px;
+    text-align:left;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.component img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.component h3 {
+    font-size: 20px;
+    color: #007BFF;
+    text-align:left;
+}
+
+.component p {
+    font-size: 1em;
+    color: #555;
+}
+
+.component:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* components sylinng done */
+
+/* Section Styles */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.status-section, .input-section, #contact {
+    text-align: center;
+}
+
+
+
+/* about project */
+
+/* About Project Section */
+.aboutProject {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card Styling */
+.aboutProject .container1, .aboutProject .container2 {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.aboutProject .container1:hover, .aboutProject .container2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading and Paragraphs */
+.aboutProject h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.aboutProject p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* List Styling */
+.aboutProject ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+.aboutProject ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.aboutProject ul li strong {
+    color: #007BFF;
+}
+
+/* about project end*/
+
+#contributors {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+/* contributer start */
+
+.contributor {
+    margin-top: 50px;
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.allContributers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contributors h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contributor:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.contributor h3 {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contributor p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* LinkedIn Button Styling */
+.contributor a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contributor {
+    margin: 20px 0;
+}
+
+.contributor a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contributor a:hover {
+    cursor: pointer;
+    background-color: #005a87;
+    color: rgb(255, 255, 255);
+}
+
+/* contributer done */
+
+/* */
+
+/* General Section Styling */
+#media-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#media-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Media Container Styling */
+.media-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.media-container .video, .media-container .image {
+    width: 300px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.media-container video, .media-container img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.media-container h3 {
+    font-size: 18px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.aboutProject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20;
+}
+
+
+/*  */
+
+/* Footer Styles */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    bottom: 0;
+}

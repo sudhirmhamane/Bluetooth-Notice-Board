@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Controlled Digital Notice Board</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h2>Bluetooth Notice Board</h2>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section id="home">
+            <h1>Smartphone Controlled Digital Notice Board</h1>
+            <div class="input-section">
+                <textarea id="messageInput" placeholder="Type your message here..." rows="4"></textarea>
+                <button id="sendMessageBtn">Send Message</button>
+            </div>
+            <div class="status-section">
+                <p id="status">Status: Disconnected</p>
+                <button id="connectBtn">Connect to Bluetooth</button>
+            </div>
+        </section>
+
+        <hr class="styled-hr">
+
+        <section id="media-section">
+            <h2>Project Media</h2>
+            <div class="media-container">
+                <!-- Video -->
+                <div class="video">
+                    <h3>Project Video</h3>
+                    <video controls>
+                        <source src="./imges&video/miniProjectVideo.jpg.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <!-- Image -->
+                <div class="image">
+                    <h3>Project Image</h3>
+                    <img src="./imges&video/miniProjectImage.jpg" alt="Project Image">
+                </div>
+            </div>
+        </section>
+
+        <hr class="styled-hr">
+
+        <div class="aboutProject">
+            <div class="container1">
+                <section id="about">
+                    <h2>About the Project</h2>
+                    <p>This project allows users to control a digital notice board remotely using a smartphone. It replaces traditional notice boards with a more efficient and environmentally friendly solution using Arduino and Bluetooth technology.</p>
+                </section>
+            </div>
+            <div class="container2">
+                <section id="project-details">
+                    <h2>Project Details</h2>
+                    <p>This system uses an Arduino microcontroller, Bluetooth module, and an LCD display to create a digital notice board. The system can be controlled through a smartphone app, which sends messages to be displayed on the board.</p>
+                    <ul>
+                        <li><strong>Technology Used:</strong> Arduino, Bluetooth, LCD Display</li>
+                        <li><strong>Functionality:</strong> Remote message updating, customizable display settings</li>
+                        <li><strong>Application:</strong> Educational institutions, offices, public places</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <hr class="styled-hr">
+
+        <div class="project-details">
+            <h2>Project Components</h2>
+    
+            <div class="allComponent">
+                <div class="component">
+                    <img src="./imges&video/Picture1.jpg" alt="Component 1">
+                    <h3>Arduino MCU</h3>
+                    <p>The Arduino board acts as the main controller for the project, allowing it to receive data from the smartphone and control the display</p>
+                </div>
+        
+                <div class="component">
+                    <img src="./imges&video/Picture2.jpg" alt="Component 2">
+                    <h3>Bluetooth Module</h3>
+                    <p>This module facilitates wireless communication between the smartphone and the Arduino.</p>
+                </div>
+        
+                <div class="component">
+                    <img src="./imges&video/Picture3.jpg" alt="Component 3">
+                    <h3>Display Screen</h3>
+                    <p>The display screen is used to show messages by giving the input from the smartphone. </p>
+                </div>
+    
+                <div class="component">
+                    <img src="./imges&video/Picture4.jpg" alt="Component 3">
+                    <h3>Breadboard & Wires</h3>
+                    <p>A breadboard is used for prototyping without soldering, while jumper wires connect various components.</p>
+                </div>
+    
+                <div class="component">
+                    <img src="./imges&video/Picture5.jpg" alt="Component 3">
+                    <h3>Resistors</h3>
+                    <p>Passive components used to control voltage and current in the circuit.</p>
+                </div>
+
+                <div class="component">
+                    <img src="./imges&video/Picture6.jpg" alt="Component 3">
+                    <h3>Capacitor</h3>
+                    <p>Passive components used to control voltage and current in the circuit.</p>
+                </div>
+            </div>
+        
+        </div>
+
+        <hr class="styled-hr">
+
+        <section id="contributors">
+            <h2>Contributors</h2>
+            <div class="allContributers">
+                <div class="contributor">
+                    <h3>Sudhir Mhamane</h3>
+                    <p> Developer | Project Member</p>
+                    <a href="https://www.linkedin.com/in/sudhirmhamane" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contributor">
+                    <h3>Aniket Shendge</h3>
+                    <p>Project Member</p>
+                    <a href="https://www.linkedin.com/in/aniket-shendage/" target="_blank">LinkedIn</a>
+                </div>
+    
+                <div class="contributor">
+                    <h3>Sarang Patil</h3>
+                    <p>Project Member</p>
+                    <a href="https://www.linkedin.com/in/sarang-patil-16aba2322/" target="_blank">LinkedIn</a>
+                </div>
+    
+                <div class="contributor">
+                    <h3>Rohan Mali</h3>
+                    <p>Project Member</p>
+                    <a href="https://www.linkedin.com/in/rohan-mali-066177275/" target="_blank">LinkedIn</a>
+                </div>
+    
+                <div class="contributor">
+                    <h3>Durganath Siddham</h3>
+                    <p>Project Member</p>
+                    <!-- <a href="https://www.linkedin.com/in/contributor2" target="_blank">LinkedIn</a> -->
+                </div>
+    
+                <div class="contributor">
+                    <h3>Ganesh Pasle</h3>
+                    <p>Project Member</p>
+                    <!-- <a href="https://www.linkedin.com/in/contributor2" target="_blank">LinkedIn</a> -->
+                </div>
+            </div>
+            <!-- Add more contributors as needed -->
+        </section>
+
+        <hr class="styled-hr">
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions, feel free to <a href="mailto:mhamanesudhir22@gmail.com">contact us</a>.</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bluetooth Notice Board.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
